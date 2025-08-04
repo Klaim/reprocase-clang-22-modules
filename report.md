@@ -1,6 +1,6 @@
  # Summary
 
-`clang++-22` outputs an compilation error when compiling a pre-processed c++ modules file (using `-frewrite-includes`) which generated code starts with `# 1 "<built-in>"` while `clang++-22` expects `module;`, `module ...;` or `export module ...;`.
+`clang++-22` outputs a compilation error when compiling a pre-processed c++ modules file (using `-frewrite-includes`) which generated code starts with `# 1 "<built-in>"` while `clang++-22` expects `module;`, `module ...;` or `export module ...;`.
 
 Note: I couldnt test with `clangc++-21` yet because of  https://github.com/llvm/llvm-project/issues/151221 , will test it later.
 
