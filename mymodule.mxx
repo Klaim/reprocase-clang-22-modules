@@ -1,0 +1,7 @@
+export module mymodule;
+
+
+export namespace mymodule
+{
+    void func() {  }
+}
