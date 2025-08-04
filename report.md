@@ -25,7 +25,8 @@ InstalledDir: /usr/lib/llvm-20/bin
 Reproducer: https://github.com/Klaim/reprocase-clang-22-modules
 
 Requires `clang++-22` to be available in the environment.
-Clone it then run `repro.sh` for the failing version using `clang++-22`, `repro-works.sh` for the succeeding version which is the same commands but wiht `clang++-20`.
+
+Clone the reproducer then run `repro.sh` for the failing version using `clang++-22`, `repro-works.sh` for the succeeding version which is the same commands but wiht `clang++-20`.
 
 ## From scratch:
 
